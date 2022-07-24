@@ -9,7 +9,7 @@ There are two different ways to return such a sorted list,
 * In terms of performance, the TreeSet solution is faster than the List solution by 40%.
 * Methods in the TreeSet Api is also applicable in future business scenerios.
 
-## Adding into a List then sorting it
+### Adding into a List then sorting it
 * It's a rudimentary way of merging the list.
 
 ## Big-O Analysis between the two ways
