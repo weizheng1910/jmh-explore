@@ -1,0 +1,180 @@
+"C:\Program Files\Java\jdk1.8.0_301\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\lib\idea_rt.jar=59796:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Users\weizheng\projectsGA\jmh-explore\target\classes;C:\Users\weizheng\.m2\repository\org\openjdk\jmh\jmh-core\1.33\jmh-core-1.33.jar;C:\Users\weizheng\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\weizheng\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\weizheng\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.33\jmh-generator-annprocess-1.33.jar" benchmark.Runner
+# JMH version: 1.33
+# VM version: JDK 1.8.0_301, Java HotSpot(TM) 64-Bit Server VM, 25.301-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_301\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\lib\idea_rt.jar=59796:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Explore.testMethod1
+
+# Run progress: 0.00% complete, ETA 00:16:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.111 ms/op
+# Warmup Iteration   2: 0.097 ms/op
+# Warmup Iteration   3: 0.097 ms/op
+# Warmup Iteration   4: 0.097 ms/op
+# Warmup Iteration   5: 0.098 ms/op
+Iteration   1: 0.098 ms/op
+Iteration   2: 0.098 ms/op
+Iteration   3: 0.097 ms/op
+Iteration   4: 0.098 ms/op
+Iteration   5: 0.097 ms/op
+
+# Run progress: 10.00% complete, ETA 00:15:06
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.095 ms/op
+# Warmup Iteration   2: 0.098 ms/op
+# Warmup Iteration   3: 0.103 ms/op
+# Warmup Iteration   4: 0.105 ms/op
+# Warmup Iteration   5: 0.098 ms/op
+Iteration   1: 0.100 ms/op
+Iteration   2: 0.099 ms/op
+Iteration   3: 0.101 ms/op
+Iteration   4: 0.099 ms/op
+Iteration   5: 0.099 ms/op
+
+# Run progress: 20.00% complete, ETA 00:13:25
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.107 ms/op
+# Warmup Iteration   2: 0.104 ms/op
+# Warmup Iteration   3: 0.104 ms/op
+# Warmup Iteration   4: 0.108 ms/op
+# Warmup Iteration   5: 0.104 ms/op
+Iteration   1: 0.105 ms/op
+Iteration   2: 0.104 ms/op
+Iteration   3: 0.105 ms/op
+Iteration   4: 0.104 ms/op
+Iteration   5: 0.107 ms/op
+
+# Run progress: 30.00% complete, ETA 00:11:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.093 ms/op
+# Warmup Iteration   2: 0.097 ms/op
+# Warmup Iteration   3: 0.097 ms/op
+# Warmup Iteration   4: 0.097 ms/op
+# Warmup Iteration   5: 0.097 ms/op
+Iteration   1: 0.099 ms/op
+Iteration   2: 0.098 ms/op
+Iteration   3: 0.098 ms/op
+Iteration   4: 0.097 ms/op
+Iteration   5: 0.097 ms/op
+
+# Run progress: 40.00% complete, ETA 00:10:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.095 ms/op
+# Warmup Iteration   2: 0.097 ms/op
+# Warmup Iteration   3: 0.096 ms/op
+# Warmup Iteration   4: 0.099 ms/op
+# Warmup Iteration   5: 0.096 ms/op
+Iteration   1: 0.095 ms/op
+Iteration   2: 0.095 ms/op
+Iteration   3: 0.097 ms/op
+Iteration   4: 0.095 ms/op
+Iteration   5: 0.095 ms/op
+
+
+Result "benchmark.Explore.testMethod1":
+0.099 ±(99.9%) 0.003 ms/op [Average]
+(min, avg, max) = (0.095, 0.099, 0.107), stdev = 0.003
+CI (99.9%): [0.097, 0.102] (assumes normal distribution)
+
+
+# JMH version: 1.33
+# VM version: JDK 1.8.0_301, Java HotSpot(TM) 64-Bit Server VM, 25.301-b09
+# VM invoker: C:\Program Files\Java\jdk1.8.0_301\jre\bin\java.exe
+# VM options: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\lib\idea_rt.jar=59796:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin -Dfile.encoding=UTF-8
+# Blackhole mode: full + dont-inline hint (default, use -Djmh.blackhole.autoDetect=true to auto-detect)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: benchmark.Explore.testMethod2
+
+# Run progress: 50.00% complete, ETA 00:08:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.147 ms/op
+# Warmup Iteration   2: 0.146 ms/op
+# Warmup Iteration   3: 0.144 ms/op
+# Warmup Iteration   4: 0.155 ms/op
+# Warmup Iteration   5: 0.150 ms/op
+Iteration   1: 0.145 ms/op
+Iteration   2: 0.143 ms/op
+Iteration   3: 0.143 ms/op
+Iteration   4: 0.143 ms/op
+Iteration   5: 0.148 ms/op
+
+# Run progress: 60.00% complete, ETA 00:06:42
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.150 ms/op
+# Warmup Iteration   2: 0.149 ms/op
+# Warmup Iteration   3: 0.147 ms/op
+# Warmup Iteration   4: 0.147 ms/op
+# Warmup Iteration   5: 0.147 ms/op
+Iteration   1: 0.155 ms/op
+Iteration   2: 0.147 ms/op
+Iteration   3: 0.148 ms/op
+Iteration   4: 0.147 ms/op
+Iteration   5: 0.148 ms/op
+
+# Run progress: 70.00% complete, ETA 00:05:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.146 ms/op
+# Warmup Iteration   2: 0.150 ms/op
+# Warmup Iteration   3: 0.143 ms/op
+# Warmup Iteration   4: 0.144 ms/op
+# Warmup Iteration   5: 0.143 ms/op
+Iteration   1: 0.144 ms/op
+Iteration   2: 0.144 ms/op
+Iteration   3: 0.148 ms/op
+Iteration   4: 0.143 ms/op
+Iteration   5: 0.142 ms/op
+
+# Run progress: 80.00% complete, ETA 00:03:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.147 ms/op
+# Warmup Iteration   2: 0.149 ms/op
+# Warmup Iteration   3: 0.149 ms/op
+# Warmup Iteration   4: 0.153 ms/op
+# Warmup Iteration   5: 0.145 ms/op
+Iteration   1: 0.143 ms/op
+Iteration   2: 0.147 ms/op
+Iteration   3: 0.154 ms/op
+Iteration   4: 0.152 ms/op
+Iteration   5: 0.149 ms/op
+
+# Run progress: 90.00% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.163 ms/op
+# Warmup Iteration   2: 0.155 ms/op
+# Warmup Iteration   3: 0.154 ms/op
+# Warmup Iteration   4: 0.153 ms/op
+# Warmup Iteration   5: 0.157 ms/op
+Iteration   1: 0.144 ms/op
+Iteration   2: 0.144 ms/op
+Iteration   3: 0.144 ms/op
+Iteration   4: 0.144 ms/op
+Iteration   5: 0.148 ms/op
+
+
+Result "benchmark.Explore.testMethod2":
+0.146 ±(99.9%) 0.003 ms/op [Average]
+(min, avg, max) = (0.142, 0.146, 0.155), stdev = 0.004
+CI (99.9%): [0.144, 0.149] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:16:47
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark            Mode  Cnt  Score   Error  Units
+Explore.testMethod1  avgt   25  0.099 ± 0.003  ms/op
+Explore.testMethod2  avgt   25  0.146 ± 0.003  ms/op
