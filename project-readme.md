@@ -10,14 +10,14 @@ There are two different ways to return such a sorted list,
 * Methods in the TreeSet Api is also applicable in future business scenerios.
 
 ## Adding into a List then sorting it
-* It's a rudimentary way of merging the list, a way commonly chosen by developers who have basic to no knowledge of computer science.
+* It's a rudimentary way of merging the list.
 
 ## Big-O Analysis between the two ways
 ### Adding into Tree Set
 * The complexity for adding a single element, k, is 0 < k <= log(N)
 * Since we add N elements, N x k which is approximately, N x log(N),
 ### Adding into List 
-* While adding one element into an ArrayList takes constant time. The occassional O(N) addition to copy to a larger array, becomes more prominent, as the numner of elements we add increases.
+* While adding one element into an ArrayList takes constant time on average, we should take into account the occassional O(N) addition to copy to a larger array, which  becomes more prominent as the number of elements we add increases.
 * Together with a mergesort which takes Nlog(N), we have N + NlogN.
 
 ## JMH Benchmarking
