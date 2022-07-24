@@ -2,7 +2,7 @@
 We explore the ways we can return a sorted list from two lists which have different type-parameters but inherit from the same abstract class.  
 There are two different ways to return such a sorted list,
   * One, is to add the two lists into a TreeSet.
-  * Two, is to add the lists into s List and then sorting it.
+  * Two, is to add the lists into a List and then sorting it.
 
 ### Adding into a TreeSet
 * In terms of readability, adding to a TreeSet is more concise. The problem is expressed more clearly, because the data structure implies the ordering necessary in the result.
